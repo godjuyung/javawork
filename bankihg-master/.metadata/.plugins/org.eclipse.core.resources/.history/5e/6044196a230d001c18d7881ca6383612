@@ -1,0 +1,14 @@
+package banking;
+
+public class Account {
+	private String ano;  //°èÁÂ¹øÈ£
+	private String owner;  //°èÁÂÁÖ
+	private int balance;  //ÀÜ°í
+	
+	public Account(String ano, String owner, int balance) {
+		this.ano = ano;
+		this.owner = owner;
+		this.balance = balance;
+	}
+
+}

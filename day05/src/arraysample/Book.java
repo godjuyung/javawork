@@ -4,6 +4,8 @@ public class Book {
 	private String bookName;
 	private String author;
 	
+	public Book() {}  //사용하는 쪽에서 호출하면 명시해야 한다
+	
 	public Book(String bookName, String author) {
 		this.bookName = bookName;
 		this.author = author;
@@ -17,7 +19,14 @@ public class Book {
 		this.bookName = bookName;
 	}
 	
+	public String getBookName() {
+		return bookName;
+	}
+	
 	public void setAuthor(String author) {
 		this.author = author;
+	}
+	public String getauthor() {
+		return author;
 	}
 }
